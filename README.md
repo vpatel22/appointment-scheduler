@@ -8,6 +8,8 @@ Right now, this React app loads data from a [JSON](./public/data.json) file. Eac
 
 There is also a delete and add ability - HOWEVER, this will not actually modify the data in the JSON file. It instead will only modify the list in its current state (ie. upon page refresh or server restart, the list will default back to whatever is in the JSON file).
 
+New ideas/issues are currently listed in a [Github Project](https://github.com/users/vpatel22/projects/1) and will be worked on eventually!
+
 ## Some background context
 
 This project is heavily based off of the [React.js: Building an Interface](https://www.linkedin.com/learning-login/share?account=103733490&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Freact-js-building-an-interface-8551484%3Ftrk%3Dshare_ent_url%26shareId%3DCaFXy6axSzmkDK8h17VdGw%253D%253D) LinkedIn Learning course by Ray Villalobos. Feel free to take a look at the [Github Repo](https://github.com/LinkedInLearning/react-interface-2880067) for that project as well.
