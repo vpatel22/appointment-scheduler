@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# The appointment scheduler
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a very simple React application that allows you to view, add and delete some scheduled appointments (in this case, for pets at a vet's office).
 
-## Available Scripts
+## Some context
 
-In the project directory, you can run:
+This project is heavily based off of the [React.js: Building an Interface](https://www.linkedin.com/learning-login/share?account=103733490&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Freact-js-building-an-interface-8551484%3Ftrk%3Dshare_ent_url%26shareId%3DCaFXy6axSzmkDK8h17VdGw%253D%253D) LinkedIn Learning course by Ray Villalobos. Feel free to take a look at the [Github Repo](https://github.com/LinkedInLearning/react-interface-2880067) for that project as well.
 
-### `npm start`
+This project started with the base [Create React App](https://github.com/facebook/create-react-app) application and was heavily modified from that point. It also uses **Tailwind.css** for some custom styling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Differences
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Currently, there are no large differences in how this application looks and functions vs the one that exists for the course. Configuration-wise, the only big difference is that we did not have to use CRACO and the other custom packages for working with Tailwind and PostCSS.
 
-### `npm test`
+## Running this application locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the project directory, run the following:
 
-### `npm run build`
+```
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will install the dependencies in the `package.json` file and then start the app in development mode at [http://localhost:3000](http://localhost:3000).
