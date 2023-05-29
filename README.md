@@ -22,7 +22,7 @@ Currently, there are no large differences in how this application looks and func
 
 ## Running this application locally
 
-In the project directory, run the following:
+Start by cloning the repo. Navigate into the project directory and run the following:
 
 ```
 npm install
